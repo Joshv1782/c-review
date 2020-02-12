@@ -6,7 +6,14 @@ namespace C__Review
     {
         static void Main(string[] args)
         {
-            // Assigned an int!
+
+            // For methos to execute we must call it by name.
+                MyMethod();
+        }
+
+        static void MyMethod()
+        {
+                        // Assigned an int!
             int x = 25;
             Console.WriteLine("Hello World!"+x);
 
@@ -34,8 +41,8 @@ namespace C__Review
                     Console.WriteLine( "uh oh, it is another value" );
                     break;
                 // git add -A and git commit -m "..." cycle. Repeat OFTEN 
-
             }
+
         }
     }
 }
