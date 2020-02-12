@@ -33,8 +33,9 @@ namespace C__Review
                 default:
                     Console.WriteLine( "uh oh, it is another value" );
                     break;
+                // git add -A and git commit -m "..." cycle. Repeat OFTEN 
 
-             }
+            }
         }
     }
 }
