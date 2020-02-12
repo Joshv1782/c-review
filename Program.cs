@@ -8,7 +8,11 @@ namespace C__Review
         {
 
             // For methos to execute we must call it by name.
-                MyMethod();
+            // MyMethod();
+
+            int[] myarray = new int [5] { 3, 4, 5, 6, 7 };
+            myarray[0] = 2; // Update value by index.  //ARRAYS START AT ZERO!
+            Console.WriteLine( myarray[0] ); // Output a value by index
         }
 
         static void MyMethod()
