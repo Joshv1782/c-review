@@ -13,7 +13,27 @@ namespace C__Review
             int[] myarray = new int [5] { 3, 4, 5, 6, 7 };
             myarray[0] = 2; // Update value by index.  //ARRAYS START AT ZERO!
             Console.WriteLine( myarray[0] ); // Output a value by index
+            
+            //  Lets try for a loop!
+            for ( int i = 0; i < 5; i++ ) {
+                Console.WriteLine( "Array Index:"+i+" | Array Value:"+myarray [i] );
         }
+
+        int n = 0;
+        while ( n < 5 ) {
+            Console.WriteLine( "Array Index:"+n+" | Array Value:"+myarray[n] );
+            //  n = n +2;
+            n += 2; // Don't forget to iterate or this might be endless!
+        }
+
+        // Let's try a forereach! // They stop themselves at the end of the collection.
+        foreach ( int e in myarray ) {
+            Console.WriteLine( "Current Foreach Value is:"+e );
+        }
+
+        Console.WriteLine( "please enter your name:");
+        string myname = Console.ReadLine(); // Store their input, or it will be lost forever!
+        Console.WriteLine( "Thank you, "+myname+"!" );
 
         static void MyMethod()
         {
@@ -49,4 +69,5 @@ namespace C__Review
 
         }
     }
+}
 }
